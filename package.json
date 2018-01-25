@@ -1,0 +1,17 @@
+{
+    "name": "expenseserver",
+    "version": "1.0.0",
+    "description": "expense server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "tomerbu",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "pg": "^7.4.1"
+    }
+}
